@@ -1,34 +1,12 @@
-.container{
-    width: 50%;
-    height: 50%;
-    
-}
-
-.label{
-    display:flex;
+.container {
+    display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items:center;
-    text-align: left;
+    justify-content: space-evenly;
 }
 
-.titlecontainer{
-    text-align: center;
-}
-.information{
-   float: left;
-}
-
-.infopara{
-    float: left;
-}
-
-.label > h3{
-    margin: 0px;
-    display: inline-block;
-    
-}
-
-.label > p{
-    margin 3px;
+.textinfo1,
+.textinfo2,
+.textinfo3,
+.textinfo4 {
+  display: inline;
 }
