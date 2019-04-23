@@ -1,8 +1,6 @@
-body {
-  background-image: url(backgroundvcard.png);
-  background-size: cover;
-  max-width: 100%;
-  max-height: 100%;
+body{
+    background-image: url("backgroundvcard.jpg");
+    background-size: cover;
 }
 .container {
   display: flex;
@@ -16,8 +14,6 @@ body {
   right: 0;
   bottom: 0;
   margin: auto;
-  margin-top: 4%;
-  margin-left: 17%;
 }
 
 .header > h1,
@@ -31,8 +27,8 @@ img {
 .textinfo1,
 .textinfo2,
 .textinfo3,
-.textinfo4 > span {
-  display: inline;
+.textinfo4, span {
+  display: inline-block;
   margin: 0px 5px;
   font-size: 20px;
 }
