@@ -1,0 +1,35 @@
+.container{
+    width: 50%;
+    height: 50%;
+    
+}
+
+.label{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align: left;
+}
+
+.titlecontainer{
+    text-align: center;
+}
+.information{
+    display: inline;
+}
+
+.information > p{
+    float: right;
+    margin: 0px;
+}
+
+.label > h3{
+    margin: 0px;
+    display: inline-block;
+    
+}
+
+.label > p{
+    margin 3px;
+}
