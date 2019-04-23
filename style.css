@@ -16,12 +16,11 @@
     text-align: center;
 }
 .information{
-    display: inline;
+   float: left;
 }
 
-.information > p{
-    float: right;
-    margin: 0px;
+.infopara{
+    float: left;
 }
 
 .label > h3{
