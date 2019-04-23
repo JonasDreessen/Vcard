@@ -1,5 +1,6 @@
-.bg {
+body {
   background-image: url(backgroundvcard.png);
+  background-size: cover;
   max-width: 100%;
   max-height: 100%;
 }
@@ -7,14 +8,19 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background-color: #737373;
   width: 40%;
   height: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  margin-top: -0%;
+  margin-left: 17%;
 }
 
-.header {
-  background-color: #3d607c;
-}
+
 .header > h1,
 img {
   display: inline;
@@ -28,16 +34,18 @@ img {
 .textinfo3,
 .textinfo4 > span {
   display: inline;
-  margin: 10px 5px;
+  margin: 0px 5px;
+  font-size: 20px;
 }
 
 .title {
   display: inline-block;
   min-width: 200px;
-  font-size: 16px;
+  font-size: 22px;
   font-weight: bold;
 }
 #vcard {
+margin-top: 17px;
   max-width: 40px;
   max-width: 40px;
 }
